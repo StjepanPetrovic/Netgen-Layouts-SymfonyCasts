@@ -20,5 +20,11 @@ services:
             - '../src/Entity/'
             - '../src/Kernel.php'
 
+    ## second (old) way to create a tag, better way you can find in src/Layouts/LatestRecipeQueryTypeHandler.php above the class
+    ## LatestRecipeQueryTypeHandler:
+    ##     class: 'App\Layouts\LatestRecipeQueryTypeHandler'
+    ##     tags:
+    ##         - { type: 'latest_recipes', name: 'netgen_layouts.query_type_handler' }
+
     # add more service definitions when explicit configuration is needed
     # please note that last definitions always *replace* previous ones
