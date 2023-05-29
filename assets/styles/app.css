@@ -98,3 +98,11 @@ h3 {
     text-decoration: none;
     color: #687474;
 }
+
+.ajax_navigation {
+    margin-top: 2rem;
+}
+
+.ajax-load-more {
+    border: none;
+}
